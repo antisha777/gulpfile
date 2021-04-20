@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
-var localhost  = 'localhost/doskamel.loc';
+//site.loc - your domain
+var localhost  = 'localhost/site.loc';
 var sass = require('gulp-sass');
 
 gulp.task('sass', function(done) {
